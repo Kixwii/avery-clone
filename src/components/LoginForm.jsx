@@ -22,6 +22,8 @@ const LoginForm = ({ onSuccess, onCancel, onSwitchToPin }) => {
       // staff@avery.com / staff123
       const token = login(email, password);
       
+      // check for token
+      console.log("Token:", token);
       if (token) {
         toast.success("Login successful");
         onSuccess();
