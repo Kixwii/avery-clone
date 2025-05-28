@@ -1,3 +1,6 @@
+//This file is my Vue index page. It loads my content and redirects the paths accordingly. I don't think I need JWT here.  
+
+
 import  { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Login from "./LoginForm.jsx";
